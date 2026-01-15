@@ -2,11 +2,15 @@
   "name": "helix-maths",
   "version": "0.1.0",
   "private": false,
+  "packageManager": "pnpm@10.28.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
+  },
+  "engines": {
+  "node": "20.x"
   },
   "dependencies": {
     "next": "16.1.1",
